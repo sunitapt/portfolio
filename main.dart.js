@@ -13713,12 +13713,13 @@ _.c=a
 _.d=b
 _.e=c
 _.a=d},
-M8:function(a,b,c,d,e){return new E.yj(c,d,e,a)},
-yj:function yj(a,b,c,d){var _=this
+M8:function(a,b,c,d,e,f){return new E.yj(d,e,f,a,b)},
+yj:function yj(a,b,c,d,e){var _=this
 _.a=a
 _.b=b
 _.c=c
-_.e=d},
+_.e=d
+_.f=e},
 ia:function ia(){},
 EO:function EO(){},
 Cm:function Cm(a,b){this.a=a
@@ -53315,7 +53316,7 @@ if(r.e)l.push($.lB())
 s=new Y.cH(C.j,5,C.D)
 m=H.d([],m)
 if(!r.e)m.push($.lB())
-return R.mk(!1,!0,G.oO(T.d3(H.d([T.Ci(G.oO(q,new S.bI(q,X.KE(C.ha,new L.hl($.wq()[r.a.c].c,q,q)),new F.cz(s,s,s,s),q,m,q,C.b1),p,80,q,q,80),new P.n(0,-33)),T.Ci(L.bQ($.wq()[r.a.c].b,q,q,q,A.cL(q,q,C.j7,q,q,q,q,q,q,q,q,15,C.wA,C.q1,q,1.5,!0,q,q,q,q,q,q),q),new P.n(0,-20)),L.bQ($.wq()[r.a.c].a,q,q,q,A.cL(q,q,q,q,q,q,q,q,q,q,q,q,q,C.ah,q,q,!0,q,q,q,q,q,q),q)],t.t),C.ag,C.V),new S.bI(o.e,q,q,n,l,q,C.y),p,350,new V.a6(0,10,0,10),new V.a6(20,0,20,0),250),q,!0,q,q,q,C.aS,q,q,q,new N.WU(r),q,new N.WV(),q,q,q)}}
+return R.mk(!1,!0,G.oO(T.d3(H.d([T.Ci(G.oO(q,new S.bI(q,X.KE(C.ha,new L.hl($.wq()[r.a.c].c,q,q)),new F.cz(s,s,s,s),q,m,q,C.b1),p,80,q,q,80),new P.n(0,-33)),T.Ci(L.bQ($.wq()[r.a.c].b,q,q,q,A.cL(q,q,C.j7,q,q,q,q,q,q,q,q,15,C.wA,C.q1,q,1.5,!0,q,q,q,q,q,q),q),new P.n(0,-20)),L.bQ($.wq()[r.a.c].a,q,q,q,A.cL(q,q,q,q,q,q,q,q,q,q,q,q,q,C.ah,q,q,!0,q,q,q,q,q,q),q)],t.t),C.ag,C.V),new S.bI(o.e,q,q,n,l,q,C.y),p,o.f,new V.a6(0,10,0,10),new V.a6(20,0,20,0),250),q,!0,q,q,q,C.aS,q,q,q,new N.WU(r),q,new N.WV(),q,q,q)}}
 N.WV.prototype={
 $0:function(){},
 $S:0}
@@ -53331,7 +53332,7 @@ gau:function(a){return this.a}}
 D.yk.prototype={
 D:function(a,b){var s=null,r=T.bv(s,20,s)
 $.wq()
-return M.c8(s,T.d3(H.d([new O.l0("Testimonials","My colleagues feedback I received",new P.z(4278235647),s),r,T.CK(P.z8(4,new D.M9(),!0,t.Cw),40,15),T.bv(s,100,s)],t.t),C.ag,C.V),C.l,s,new S.ar(0,800,0,1/0),s,s,s,s,new V.a6(0,50,0,50),s,s,s)}}
+return M.c8(s,T.d3(H.d([new O.l0("Testimonials","My colleagues feedback I received",new P.z(4278235647),s),r,T.CK(P.z8(4,new D.M9(),!0,t.Cw),0,15),T.bv(s,100,s)],t.t),C.ag,C.V),C.l,s,new S.ar(0,800,0,1/0),s,s,s,s,new V.a6(0,50,0,50),s,s,s)}}
 D.M9.prototype={
 $1:function(a){return new N.k5(a,null)},
 $S:329}
@@ -53456,7 +53457,7 @@ D:function(a,b){var s=null
 return M.c8(s,U.iT("images/sun2.jpg",s,s,s),C.l,s,new S.ar(0,639,0,600),s,s,s,s,s,s,s,s)}}
 U.yF.prototype={
 D:function(a,b){var s=null,r=K.cU(10),q=P.acq(10,10),p=P.az(0,255,255,255)
-return new T.xh(r,new T.wS(q,M.c8(s,T.d3(H.d([L.bQ("Hello there!",s,s,s,K.aJ(b).R.e.dL(C.j),s),L.bQ("SUNITA \nPATIL",s,s,s,A.cL(s,s,C.j,s,s,s,s,s,s,s,s,75,s,C.ah,s,s,!0,s,s,s,s,s,s),s),L.bQ("Computer Enthusiast\nFlutter Developer",s,s,s,K.aJ(b).R.e.dL(C.j),s)],t.t),C.bD,C.ef),C.l,p,new S.ar(0,800,0,this.c.b*0.64),s,s,s,s,new V.a6(40,0,40,0),s,s,1/0),s),s)}}
+return new T.xh(r,new T.wS(q,M.c8(s,T.d3(H.d([L.bQ("Hello there! \n I am",s,s,s,K.aJ(b).R.e.dL(C.j),s),L.bQ("SUNITA \nPATIL",s,s,s,A.cL(s,s,C.j,s,s,s,s,s,s,s,s,75,s,C.ah,s,s,!0,s,s,s,s,s,s),s),L.bQ("Computer Enthusiast\nFlutter Developer",s,s,s,K.aJ(b).R.e.dL(C.j),s)],t.t),C.bD,C.ef),C.l,p,new S.ar(0,800,0,this.c.b*0.64),s,s,s,s,new V.a6(40,0,40,0),s,s,1/0),s),s)}}
 Z.t1.prototype={
 ak:function(){return new Z.GV(C.k)}}
 Z.GV.prototype={
@@ -57881,7 +57882,7 @@ q($,"al8","a9L",function(){var p=$.a9M()
 return new L.qf(p,p,p)})
 q($,"al9","a9M",function(){return F.acY(K.cU(50),Y.abc(P.d2(4291749117),C.D,1),4)})
 q($,"al5","wq",function(){var p=4294964189
-return H.d([E.M8(P.d2(p),1,"- NIKHIL GHODKE","In a while I have not seen anyone as caring and selfless as you are! The world unlike your nature is ruthless and cares for no one, i just deeply want you to freeze in time and remain what ever you are currently, the same childish, innocent and passionate kid.","images/padhku.jpg"),E.M8(P.d2(4292476924),2,"- YASH","Sunii,You are childish, beautiful, wild, innocent mess. The gravitative persona that you carry is sphere of Happiness around you. whoever comes into that sphere becomes happy.That sphere is held strong with your smile which never fails to melt hearts.Stay Happy.","images/yash.jpg"),E.M8(P.d2(4294959328),3,"- HARSHALI","You were the one, standing with me when everyone one else I loved left me..You were the one, weeping my tears when I was crying....You were the one, making efforts to make feel up when everybody was putting me down..You helped me to heal myself.You made me alive..I love you my jaan..","images/h.jpg"),E.M8(P.d2(p),4,"- ANUSHKA BHAVE","feedback","images/anushka.jpg")],H.a5("r<yj*>"))})
+return H.d([E.M8(P.d2(p),350,1,"- NIKHIL GHODKE","In a while I have not seen anyone as caring and selfless as you are! The world unlike your nature is ruthless and cares for no one, i just deeply want you to freeze in time and remain what ever you are currently, the same childish, innocent and passionate kid.","images/padhku.jpg"),E.M8(P.d2(4292476924),450,2,"- YASH HALGAONKAR","Sunii,You are a childish, beautiful, sassy, wild, innocent mess. You have a gravitative persona that you carry wherever you go. You carry a sphere of Happiness around you - whoever comes into that sphere becomes happy. That sphere is held strong with your smile which never fails to melt hearts. Keep bringing joy and happiness to peoples around you. Always keep smiling, stay happy, and never ever change. Dont let anyone tell you that you are less than PERFECT.","images/yash.jpg"),E.M8(P.d2(4294959328),350,3,"- HARSHALI BIRARI","You were the one, standing with me when everyone one else I loved left me..You were the one, weeping my tears when I was crying....You were the one, making efforts to make feel up when everybody was putting me down..You helped me to heal myself.You made me alive..I love you my jaan..","images/h.jpg"),E.M8(P.d2(p),475,4,"- ANUSHKA BHAVE","Sunita is an inquisitive and a quick thinker. Her grasping power amazes me! She is the embodiment of both intelligence and emotion. She has a unique perspective for dealing with problems, understanding and empathising with people and she is such a bliss to everyone around her. Due to these qualities Sunita is capable of being an emotionally intelligent leader and team player. She definitely has the power to make people lives better in the years to come!","images/anushka.jpg")],H.a5("r<yj*>"))})
 q($,"alg","IU",function(){var p="images/work_1.png"
 return H.d([G.Az("Coding",1,p,"Chat App (Flutter, Firebase)","https://github.com/sunitapt/chat_app"),G.Az("K-Means Algo",2,"images/work_2.png","K-Means Clustering ,performance efficient algorithm approach","https://github.com/sunitapt/"),G.Az("DBMS",3,"images/work_3.png","DBMS for online shopping e-commerce system(MySQL )","https://github.com/sunitapt/dbms_online_shopping_ecommerce_system/"),G.Az("API Solution",4,"images/work_4.png","Solution to Github MazeBot Racemode API ( Java,Gradle )","https://github.com/sunitapt/mazebot1"),G.Az("Coding ",5,p,"Climate app (Flutter, API)","https://github.com/sunitapt/climate_app")],H.a5("r<AA*>"))})
 q($,"ali","a0Y",function(){var p="images/desktop.png",o=4294959328
