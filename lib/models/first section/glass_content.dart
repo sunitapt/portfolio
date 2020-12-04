@@ -25,7 +25,7 @@ class GlassContent extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("Hello there!",
+              Text("Hello there! \n I am",
                 style: Theme
                     .of(context)
                     .textTheme

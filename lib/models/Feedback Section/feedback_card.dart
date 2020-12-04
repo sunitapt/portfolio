@@ -30,7 +30,7 @@ class _FeedbackCardState extends State<FeedbackCard> {
         duration: duration,
         margin: EdgeInsets.symmetric(vertical: kDefaultPadding/2),
         padding: EdgeInsets.symmetric(horizontal: kDefaultPadding,),
-        height: 350,
+        height: feedbacks[widget.index].height.toDouble(),
         width: 250,
         decoration: BoxDecoration(
           color: feedbacks[widget.index].color,

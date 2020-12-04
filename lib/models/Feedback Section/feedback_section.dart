@@ -27,7 +27,8 @@ class FeedbackSection extends StatelessWidget {
           ),
           Wrap(
             spacing: 15,
-            runSpacing: 40,
+            // alignment: WrapAlignment.spaceEvenly,
+            //runSpacing: 20,
             children: List.generate(feedbacks.length, (index) => FeedbackCard(index: index,),),
           ),
           SizedBox(

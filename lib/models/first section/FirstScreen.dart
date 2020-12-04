@@ -1,12 +1,10 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import 'package:portfolio/models/first%20section/LogoAndBlurBox.dart';
 import 'package:portfolio/models/first%20section/Person_Pic.dart';
 import 'package:portfolio/constants.dart';
-
 import 'Menu.dart';
 
 class FirstScreen extends StatelessWidget {
@@ -33,7 +31,6 @@ class FirstScreen extends StatelessWidget {
                 bottom: 0,
                 right: 0,
                child: PersonPic(),
-
               ),
               Positioned(
                 bottom: 0,

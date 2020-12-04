@@ -7,6 +7,7 @@ import 'models/Feedback Section/feedback_section.dart';
 import 'models/Projects/recent_projects.dart';
 import 'models/Skills Section/Skills_section.dart';
 import 'models/Summary section/Summary.dart';
+import 'models/diskdata.dart';
 import 'models/first section/FirstScreen.dart';
 class HomeScreen extends StatelessWidget {
   @override
@@ -16,6 +17,7 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            // VariousDiscs(50),
             FirstScreen(),
             SoundSong(),
             SizedBox(height: kDefaultPadding*2,),
